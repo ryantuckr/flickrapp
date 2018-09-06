@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>flickr app</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/public/flicker.css">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron"> 
+      <div class="text-center">
+        <img id="logo" src="/public/flickrlogo.png">
+      </div>
+      
+      <h1 class="text-center">flickr public api photo app</h1>
+     
+      <hr>
+      
+      
+      <div class="text-center" id="inputs">
+        <input type="search" id="search-input" required placeholder="search flickr photos">
+        <button class="btn btn-lg" type="submit" id="search-btn">Photo Search</button>
+        <button class="btn btn-lg" type="submit" id="recent-btn">25 Most recent</button>
+      </div>
+
+
+
+    
+    <div class="text-center" id="photodiv"></div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="https://www.linkedin.com/in/ryantuckerdev/">ryantuckerlinkedin</a> | <a href="https://ryantuckr.github.io/profile2.0/" style="color: #FF0084">ryantuckerportfolio</a>
+      </div>
+    </footer>
+
+  
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="/public/main.js"></script>
+
+</html>

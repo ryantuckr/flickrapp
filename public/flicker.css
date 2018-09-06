@@ -1,0 +1,40 @@
+#search-input {
+    height: 44px;
+    border-radius: 12px;
+    
+}
+#recent-btn {
+    background-color: #FF0084;
+    color: white;
+    border-radius: 12px;
+    
+}
+#recent-btn:hover {
+    background-color: #FF3FA2;
+    color: white;
+    border-radius: 12px;
+}
+
+#search-btn {
+    background-color: #0063DB;
+    color: white;
+    border-radius: 12px;
+    
+}
+#search-btn:hover {
+    background-color: #74aaec;
+    color: white;
+    border-radius: 12px;
+}
+
+.jumbotron {
+    margin-top: 25px
+}
+
+#logo {
+    height: 15%;
+    width: 20%;
+    text-align: center;
+}
+
+
